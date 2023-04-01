@@ -15,9 +15,14 @@ Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS Ventura 13
 
 View Installation Video ⬇︎
 
+https://user-images.githubusercontent.com/6248794/229322640-da95b36b-6fe9-49ee-a40f-0127a19d9509.mov
+
 
 View Uninstall Video ⬇︎
 
+https://user-images.githubusercontent.com/6248794/229322729-c9006730-cb6d-42c2-9cc3-4f1b076c624f.mov
+
 
 - Don't forget to click on any security popup while installing the application
+
 
