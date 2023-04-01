@@ -1,0 +1,49 @@
+#!/bin/bash
+# Drop-EFI
+# Copyright (c) 2019, 2023 chris1111. All Right Reserved
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+# WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+# ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+# WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+# ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+# OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+# Vars
+apptitle="Drop-EFI"
+version="1.0-V2"
+# Set Icon directory and file 
+export ICNS=$(dirname "${0}")
+iconfile="$ICNS/AppIcon.icns"
+
+response=$(osascript -e 'tell app "System Events" to display dialog "
+Choose an option
+(Unmount EFI) Option for Ventura 13\nCancel for Quit Status Bar" buttons {"Cancel", "Unmount EFI" ,"Mount EFI"} default button 3 with title "'"$apptitle"' '"$version"'" with icon POSIX file "'"$iconfile"'"  ')
+
+action=$(echo $response | cut -d ':' -f2)
+
+# Exit if Canceled
+if [ ! "$action" ] ; then
+  osascript -e 'display notification "Program Quit Status Bar" with title "User cancelled"  sound name "Submarine"'
+  killall -c Drop-EFI
+  exit 0
+fi
+
+
+
+if [ "$action" == "Mount EFI" ] ; then
+  open ./Drop-EFI.app
+fi
+
+if [ "$action" == "Unmount EFI" ] ; then
+  diskutil unmount "/Volumes/EFI" 
+  diskutil unmount "/Volumes/EFI 1"
+  diskutil unmount "/Volumes/EFI 2"
+  diskutil unmount "/Volumes/EFI 3"
+  diskutil unmount "/Volumes/ESP"
+  osascript -e 'do shell script "afplay './VolumeUnmount.aiff' &> /dev/null &"'
+
+fi
+
