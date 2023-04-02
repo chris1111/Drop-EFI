@@ -5,7 +5,8 @@
 Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS Ventura 13
 - It works from 10.12 to macOS Ventura 13.
 - Gatekeeper must be disable to using it.
-- It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J
+- It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS
+
 - Not working encrypted volume
 
 ### Credit:
