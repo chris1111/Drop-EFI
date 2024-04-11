@@ -38,12 +38,33 @@ if [ "$action" == "Mount EFI" ] ; then
 fi
 
 if [ "$action" == "Unmount EFI" ] ; then
-  diskutil unmount "/Volumes/EFI" 
-  diskutil unmount "/Volumes/EFI 1"
-  diskutil unmount "/Volumes/EFI 2"
-  diskutil unmount "/Volumes/EFI 3"
-  diskutil unmount "/Volumes/ESP"
+  if [ -d "/Volumes/EFI" ]; then
+    diskutil unmount "/Volumes/EFI"
+  fi
+
+  if [ -d "/Volumes/ESP" ]; then
+    diskutil unmount "/Volumes/ESP"
+  fi
+
+  if [ -d "/Volumes/EFI 1" ]; then
+    diskutil unmount "/Volumes/EFI 1"
+  fi
+
+  if [ -d "/Volumes/EFI 2" ]; then
+    diskutil unmount "/Volumes/EFI 2"
+  fi
+
+  if [ -d "/Volumes/EFI 3" ]; then
+    diskutil unmount "/Volumes/EFI 3"
+  fi
+
+  if [ -d "/Volumes/EFI 4" ]; then
+    diskutil unmount "/Volumes/EFI 4"
+  fi
+
+  if [ -d "/Volumes/EFI 5" ]; then
+    diskutil unmount "/Volumes/EFI 5"
+  fi
   osascript -e 'do shell script "afplay './VolumeUnmount.aiff' &> /dev/null &"'
 
 fi
-
