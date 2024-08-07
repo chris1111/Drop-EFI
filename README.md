@@ -1,9 +1,9 @@
 # Drop-EFI for macOS
 
-### Download ➤ [Drop EFI](https://github.com/chris1111/Drop-EFI/releases/tag/V1)
+### Download ➤ [Drop EFI](https://github.com/chris1111/Drop-EFI/releases/tag/V2)
   
 Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
-- It works from 10.12 to macOS Sonoma 14.
+- It works from 10.12 to macOS Sequoia 15.
 - Gatekeeper must be disable to using it.
 - It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS
 
