@@ -15,7 +15,7 @@ Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 - Created from [Script Debugger](https://latenightsw.com/)
 - Credit: [Clover team for Mount EFI script](https://sourceforge.net/projects/cloverefiboot/)
 
-View Installation and Uninstall  Video ⬇︎
+### View Installation Video ⬇︎
 
 
 
