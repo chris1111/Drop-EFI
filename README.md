@@ -14,6 +14,7 @@ Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 
 ### Download ➤ [Drop EFI V3](https://github.com/chris1111/Drop-EFI/releases/tag/V3) For macOS Sequoia 15
 
+### For macOS Sequoia 15 follow ➤ [Allow applications](https://github.com/chris1111/Drop-EFI/blob/Master/Debug.md)
 ### View Installation Video ⬇︎ For macOS Sequoia 15
 
 [![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/YWtP0sZ3RFk)
