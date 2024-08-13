@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D1B9472C6C156700542E52 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1B9242C6C156700542E52 /* Sparkle.framework */; };
+		83D1B9482C6C156700542E52 /* Badge.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92D2C6C156700542E52 /* Badge.tiff */; };
+		83D1B9492C6C156700542E52 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91B2C6C156700542E52 /* MainMenu.nib */; };
+		83D1B94A2C6C156700542E52 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9302C6C156700542E52 /* Credits.html */; };
+		83D1B94B2C6C156700542E52 /* DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9342C6C156700542E52 /* DocumentIcon.png */; };
+		83D1B94C2C6C156700542E52 /* Helper-EFI in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9282C6C156700542E52 /* Helper-EFI */; };
+		83D1B94D2C6C156700542E52 /* ChooseFromListViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92F2C6C156700542E52 /* ChooseFromListViewController.nib */; };
+		83D1B94E2C6C156700542E52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91F2C6C156700542E52 /* Info.plist */; };
+		83D1B94F2C6C156700542E52 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92C2C6C156700542E52 /* Assets.car */; };
+		83D1B9502C6C156700542E52 /* applet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92B2C6C156700542E52 /* applet.icns */; };
+		83D1B9512C6C156700542E52 /* Main.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B93C2C6C156700542E52 /* Main.storyboardc */; };
+		83D1B9522C6C156700542E52 /* DropFilesViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9362C6C156700542E52 /* DropFilesViewController.nib */; };
+		83D1B9532C6C156700542E52 /* description.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9312C6C156700542E52 /* description.rtfd */; };
+		83D1B9542C6C156700542E52 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9432C6C156700542E52 /* PkgInfo */; };
+		83D1B9552C6C156700542E52 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B93E2C6C156700542E52 /* Main.strings */; };
+		83D1B9562C6C156700542E52 /* CodeResources in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9222C6C156700542E52 /* CodeResources */; };
+		83D1B9572C6C156700542E52 /* VolumeUnmount.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91D2C6C156700542E52 /* VolumeUnmount.aiff */; };
+		83D1B9582C6C156700542E52 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9192C6C156700542E52 /* AppIcon.icns */; };
+		83D1B9592C6C156700542E52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B93A2C6C156700542E52 /* Localizable.strings */; };
+		83D1B95A2C6C156700542E52 /* main.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9292C6C156700542E52 /* main.scpt */; };
+		83D1B95B2C6C156700542E52 /* FancyDroplet in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9262C6C156700542E52 /* FancyDroplet */; };
+		83D1B95C2C6C156700542E52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9422C6C156700542E52 /* Info.plist */; };
+		83D1B95D2C6C156700542E52 /* SpotlightViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9402C6C156700542E52 /* SpotlightViewController.nib */; };
+		83D1B95E2C6C156700542E52 /* script in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91C2C6C156700542E52 /* script */; };
+		83D1B95F2C6C156700542E52 /* AppSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91A2C6C156700542E52 /* AppSettings.plist */; };
+		83D1B9602C6C156700542E52 /* DisplayDialogViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9332C6C156700542E52 /* DisplayDialogViewController.nib */; };
+		83D1B9612C6C156700542E52 /* Drop-EFI in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9172C6C156700542E52 /* Drop-EFI */; };
+		83D1B9622C6C156700542E52 /* droplet.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9382C6C156700542E52 /* droplet.tiff */; };
+		83D1B9632C6C156700542E52 /* droplet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9372C6C156700542E52 /* droplet.icns */; };
+		83D1B9D52C6C20AA00542E52 /* Build-App.command in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9D42C6C20AA00542E52 /* Build-App.command */; };
+		83D1B9D72C6C20B500542E52 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 83D1B9D62C6C20B500542E52 /* makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D1B8F92C6C152400542E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D1B8D72C6C152100542E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D1B8DE2C6C152100542E52;
+			remoteInfo = "Drop-EFI";
+		};
+		83D1B9032C6C152400542E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D1B8D72C6C152100542E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D1B8DE2C6C152100542E52;
+			remoteInfo = "Drop-EFI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D1B8DF2C6C152200542E52 /* Drop-EFI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop-EFI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1B8F82C6C152400542E52 /* Drop-EFITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drop-EFITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1B9022C6C152400542E52 /* Drop-EFIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drop-EFIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1B9172C6C156700542E52 /* Drop-EFI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "Drop-EFI"; sourceTree = "<group>"; };
+		83D1B9192C6C156700542E52 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		83D1B91A2C6C156700542E52 /* AppSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = AppSettings.plist; sourceTree = "<group>"; };
+		83D1B91B2C6C156700542E52 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
+		83D1B91C2C6C156700542E52 /* script */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = script; sourceTree = "<group>"; };
+		83D1B91D2C6C156700542E52 /* VolumeUnmount.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = VolumeUnmount.aiff; sourceTree = "<group>"; };
+		83D1B91F2C6C156700542E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+		83D1B9222C6C156700542E52 /* CodeResources */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
+		83D1B9242C6C156700542E52 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		83D1B9262C6C156700542E52 /* FancyDroplet */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = FancyDroplet; sourceTree = "<group>"; };
+		83D1B9282C6C156700542E52 /* Helper-EFI */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Helper-EFI"; sourceTree = "<group>"; };
+		83D1B9292C6C156700542E52 /* main.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.scpt; sourceTree = "<group>"; };
+		83D1B92B2C6C156700542E52 /* applet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = applet.icns; sourceTree = "<group>"; };
+		83D1B92C2C6C156700542E52 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
+		83D1B92D2C6C156700542E52 /* Badge.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Badge.tiff; sourceTree = "<group>"; };
+		83D1B92E2C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Base; path = Base.lproj/ChooseFromListViewController.nib; sourceTree = "<group>"; };
+		83D1B9302C6C156700542E52 /* Credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		83D1B9312C6C156700542E52 /* description.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = description.rtfd; sourceTree = "<group>"; };
+		83D1B9322C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Base; path = Base.lproj/DisplayDialogViewController.nib; sourceTree = "<group>"; };
+		83D1B9342C6C156700542E52 /* DocumentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DocumentIcon.png; sourceTree = "<group>"; };
+		83D1B9352C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Base; path = Base.lproj/DropFilesViewController.nib; sourceTree = "<group>"; };
+		83D1B9372C6C156700542E52 /* droplet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = droplet.icns; sourceTree = "<group>"; };
+		83D1B9382C6C156700542E52 /* droplet.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = droplet.tiff; sourceTree = "<group>"; };
+		83D1B9392C6C156700542E52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83D1B93B2C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storyboardc; name = Base; path = Base.lproj/Main.storyboardc; sourceTree = "<group>"; };
+		83D1B93D2C6C156700542E52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		83D1B93F2C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/SpotlightViewController.nib; sourceTree = "<group>"; };
+		83D1B9422C6C156700542E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D1B9432C6C156700542E52 /* PkgInfo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
+		83D1B9D42C6C20AA00542E52 /* Build-App.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Build-App.command"; sourceTree = "<group>"; };
+		83D1B9D62C6C20B500542E52 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		83D1B90A2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Drop-EFI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Document.xib",
+				"/Localized: MainMenu.xib",
+				Info.plist,
+			);
+			target = 83D1B8DE2C6C152100542E52 /* Drop-EFI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		83D1B90E2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Copy Bundle Resources" phase from "Drop-EFI" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 83D1B8DD2C6C152100542E52 /* Resources */;
+			membershipExceptions = (
+				Base.lproj/Document.xib,
+				Base.lproj/MainMenu.xib,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		83D1B8E12C6C152200542E52 /* Drop-EFI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				83D1B90A2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Drop-EFI" target */,
+				83D1B90E2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Copy Bundle Resources" phase from "Drop-EFI" target */,
+			);
+			path = "Drop-EFI";
+			sourceTree = "<group>";
+		};
+		83D1B8FB2C6C152400542E52 /* Drop-EFITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Drop-EFITests";
+			sourceTree = "<group>";
+		};
+		83D1B9052C6C152400542E52 /* Drop-EFIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Drop-EFIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D1B8DC2C6C152100542E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D1B9472C6C156700542E52 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1B8F52C6C152400542E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1B8FF2C6C152400542E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D1B8D62C6C152100542E52 = {
+			isa = PBXGroup;
+			children = (
+				83D1B9D62C6C20B500542E52 /* makefile */,
+				83D1B9D42C6C20AA00542E52 /* Build-App.command */,
+				83D1B9462C6C156700542E52 /* PackageRoot */,
+				83D1B8E12C6C152200542E52 /* Drop-EFI */,
+				83D1B8FB2C6C152400542E52 /* Drop-EFITests */,
+				83D1B9052C6C152400542E52 /* Drop-EFIUITests */,
+				83D1B8E02C6C152200542E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D1B8E02C6C152200542E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B8DF2C6C152200542E52 /* Drop-EFI.app */,
+				83D1B8F82C6C152400542E52 /* Drop-EFITests.xctest */,
+				83D1B9022C6C152400542E52 /* Drop-EFIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D1B9182C6C156700542E52 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9172C6C156700542E52 /* Drop-EFI */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		83D1B91E2C6C156700542E52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9192C6C156700542E52 /* AppIcon.icns */,
+				83D1B91A2C6C156700542E52 /* AppSettings.plist */,
+				83D1B91B2C6C156700542E52 /* MainMenu.nib */,
+				83D1B91C2C6C156700542E52 /* script */,
+				83D1B91D2C6C156700542E52 /* VolumeUnmount.aiff */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83D1B9202C6C156700542E52 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9182C6C156700542E52 /* MacOS */,
+				83D1B91E2C6C156700542E52 /* Resources */,
+				83D1B91F2C6C156700542E52 /* Info.plist */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		83D1B9212C6C156700542E52 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9202C6C156700542E52 /* Contents */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		83D1B9232C6C156700542E52 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9222C6C156700542E52 /* CodeResources */,
+			);
+			path = _CodeSignature;
+			sourceTree = "<group>";
+		};
+		83D1B9252C6C156700542E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9242C6C156700542E52 /* Sparkle.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D1B9272C6C156700542E52 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9262C6C156700542E52 /* FancyDroplet */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		83D1B92A2C6C156700542E52 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9282C6C156700542E52 /* Helper-EFI */,
+				83D1B9292C6C156700542E52 /* main.scpt */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		83D1B9412C6C156700542E52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B92A2C6C156700542E52 /* Scripts */,
+				83D1B92B2C6C156700542E52 /* applet.icns */,
+				83D1B92C2C6C156700542E52 /* Assets.car */,
+				83D1B92D2C6C156700542E52 /* Badge.tiff */,
+				83D1B92F2C6C156700542E52 /* ChooseFromListViewController.nib */,
+				83D1B9302C6C156700542E52 /* Credits.html */,
+				83D1B9312C6C156700542E52 /* description.rtfd */,
+				83D1B9332C6C156700542E52 /* DisplayDialogViewController.nib */,
+				83D1B9342C6C156700542E52 /* DocumentIcon.png */,
+				83D1B9362C6C156700542E52 /* DropFilesViewController.nib */,
+				83D1B9372C6C156700542E52 /* droplet.icns */,
+				83D1B9382C6C156700542E52 /* droplet.tiff */,
+				83D1B93A2C6C156700542E52 /* Localizable.strings */,
+				83D1B93C2C6C156700542E52 /* Main.storyboardc */,
+				83D1B93E2C6C156700542E52 /* Main.strings */,
+				83D1B9402C6C156700542E52 /* SpotlightViewController.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83D1B9442C6C156700542E52 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9232C6C156700542E52 /* _CodeSignature */,
+				83D1B9252C6C156700542E52 /* Frameworks */,
+				83D1B9272C6C156700542E52 /* MacOS */,
+				83D1B9412C6C156700542E52 /* Resources */,
+				83D1B9422C6C156700542E52 /* Info.plist */,
+				83D1B9432C6C156700542E52 /* PkgInfo */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		83D1B9452C6C156700542E52 /* InsideApp */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9442C6C156700542E52 /* Contents */,
+			);
+			path = InsideApp;
+			sourceTree = "<group>";
+		};
+		83D1B9462C6C156700542E52 /* PackageRoot */ = {
+			isa = PBXGroup;
+			children = (
+				83D1B9212C6C156700542E52 /* App */,
+				83D1B9452C6C156700542E52 /* InsideApp */,
+			);
+			path = PackageRoot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D1B8DE2C6C152100542E52 /* Drop-EFI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D1B90B2C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFI" */;
+			buildPhases = (
+				83D1B8DB2C6C152100542E52 /* Sources */,
+				83D1B8DC2C6C152100542E52 /* Frameworks */,
+				83D1B8DD2C6C152100542E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				83D1B8E12C6C152200542E52 /* Drop-EFI */,
+			);
+			name = "Drop-EFI";
+			packageProductDependencies = (
+			);
+			productName = "Drop-EFI";
+			productReference = 83D1B8DF2C6C152200542E52 /* Drop-EFI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D1B8F72C6C152400542E52 /* Drop-EFITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D1B9112C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFITests" */;
+			buildPhases = (
+				83D1B8F42C6C152400542E52 /* Sources */,
+				83D1B8F52C6C152400542E52 /* Frameworks */,
+				83D1B8F62C6C152400542E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D1B8FA2C6C152400542E52 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83D1B8FB2C6C152400542E52 /* Drop-EFITests */,
+			);
+			name = "Drop-EFITests";
+			packageProductDependencies = (
+			);
+			productName = "Drop-EFITests";
+			productReference = 83D1B8F82C6C152400542E52 /* Drop-EFITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83D1B9012C6C152400542E52 /* Drop-EFIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D1B9142C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFIUITests" */;
+			buildPhases = (
+				83D1B8FE2C6C152400542E52 /* Sources */,
+				83D1B8FF2C6C152400542E52 /* Frameworks */,
+				83D1B9002C6C152400542E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D1B9042C6C152400542E52 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83D1B9052C6C152400542E52 /* Drop-EFIUITests */,
+			);
+			name = "Drop-EFIUITests";
+			packageProductDependencies = (
+			);
+			productName = "Drop-EFIUITests";
+			productReference = 83D1B9022C6C152400542E52 /* Drop-EFIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D1B8D72C6C152100542E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					83D1B8DE2C6C152100542E52 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					83D1B8F72C6C152400542E52 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 83D1B8DE2C6C152100542E52;
+					};
+					83D1B9012C6C152400542E52 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 83D1B8DE2C6C152100542E52;
+					};
+				};
+			};
+			buildConfigurationList = 83D1B8DA2C6C152100542E52 /* Build configuration list for PBXProject "Drop-EFI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D1B8D62C6C152100542E52;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 83D1B8E02C6C152200542E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D1B8DE2C6C152100542E52 /* Drop-EFI */,
+				83D1B8F72C6C152400542E52 /* Drop-EFITests */,
+				83D1B9012C6C152400542E52 /* Drop-EFIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D1B8DD2C6C152100542E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D1B9482C6C156700542E52 /* Badge.tiff in Resources */,
+				83D1B9492C6C156700542E52 /* MainMenu.nib in Resources */,
+				83D1B94A2C6C156700542E52 /* Credits.html in Resources */,
+				83D1B94B2C6C156700542E52 /* DocumentIcon.png in Resources */,
+				83D1B94C2C6C156700542E52 /* Helper-EFI in Resources */,
+				83D1B94D2C6C156700542E52 /* ChooseFromListViewController.nib in Resources */,
+				83D1B94E2C6C156700542E52 /* Info.plist in Resources */,
+				83D1B94F2C6C156700542E52 /* Assets.car in Resources */,
+				83D1B9502C6C156700542E52 /* applet.icns in Resources */,
+				83D1B9512C6C156700542E52 /* Main.storyboardc in Resources */,
+				83D1B9522C6C156700542E52 /* DropFilesViewController.nib in Resources */,
+				83D1B9532C6C156700542E52 /* description.rtfd in Resources */,
+				83D1B9542C6C156700542E52 /* PkgInfo in Resources */,
+				83D1B9552C6C156700542E52 /* Main.strings in Resources */,
+				83D1B9562C6C156700542E52 /* CodeResources in Resources */,
+				83D1B9572C6C156700542E52 /* VolumeUnmount.aiff in Resources */,
+				83D1B9582C6C156700542E52 /* AppIcon.icns in Resources */,
+				83D1B9592C6C156700542E52 /* Localizable.strings in Resources */,
+				83D1B95A2C6C156700542E52 /* main.scpt in Resources */,
+				83D1B95B2C6C156700542E52 /* FancyDroplet in Resources */,
+				83D1B95C2C6C156700542E52 /* Info.plist in Resources */,
+				83D1B95D2C6C156700542E52 /* SpotlightViewController.nib in Resources */,
+				83D1B95E2C6C156700542E52 /* script in Resources */,
+				83D1B95F2C6C156700542E52 /* AppSettings.plist in Resources */,
+				83D1B9602C6C156700542E52 /* DisplayDialogViewController.nib in Resources */,
+				83D1B9D52C6C20AA00542E52 /* Build-App.command in Resources */,
+				83D1B9612C6C156700542E52 /* Drop-EFI in Resources */,
+				83D1B9622C6C156700542E52 /* droplet.tiff in Resources */,
+				83D1B9632C6C156700542E52 /* droplet.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1B8F62C6C152400542E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1B9002C6C152400542E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D1B8DB2C6C152100542E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D1B9D72C6C20B500542E52 /* makefile in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1B8F42C6C152400542E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1B8FE2C6C152400542E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D1B8FA2C6C152400542E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D1B8DE2C6C152100542E52 /* Drop-EFI */;
+			targetProxy = 83D1B8F92C6C152400542E52 /* PBXContainerItemProxy */;
+		};
+		83D1B9042C6C152400542E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D1B8DE2C6C152100542E52 /* Drop-EFI */;
+			targetProxy = 83D1B9032C6C152400542E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D1B92F2C6C156700542E52 /* ChooseFromListViewController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B92E2C6C156700542E52 /* Base */,
+			);
+			name = ChooseFromListViewController.nib;
+			sourceTree = "<group>";
+		};
+		83D1B9332C6C156700542E52 /* DisplayDialogViewController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B9322C6C156700542E52 /* Base */,
+			);
+			name = DisplayDialogViewController.nib;
+			sourceTree = "<group>";
+		};
+		83D1B9362C6C156700542E52 /* DropFilesViewController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B9352C6C156700542E52 /* Base */,
+			);
+			name = DropFilesViewController.nib;
+			sourceTree = "<group>";
+		};
+		83D1B93A2C6C156700542E52 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B9392C6C156700542E52 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		83D1B93C2C6C156700542E52 /* Main.storyboardc */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B93B2C6C156700542E52 /* Base */,
+			);
+			name = Main.storyboardc;
+			sourceTree = "<group>";
+		};
+		83D1B93E2C6C156700542E52 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B93D2C6C156700542E52 /* en */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		83D1B9402C6C156700542E52 /* SpotlightViewController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D1B93F2C6C156700542E52 /* Base */,
+			);
+			name = SpotlightViewController.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D1B90C2C6C152400542E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drop-EFI/Drop_EFI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PackageRoot/InsideApp/Contents/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Drop-EFI/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		83D1B90D2C6C152400542E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drop-EFI/Drop_EFI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PackageRoot/InsideApp/Contents/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Drop-EFI/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		83D1B90F2C6C152400542E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83D1B9102C6C152400542E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83D1B9122C6C152400542E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drop-EFI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drop-EFI";
+			};
+			name = Debug;
+		};
+		83D1B9132C6C152400542E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drop-EFI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drop-EFI";
+			};
+			name = Release;
+		};
+		83D1B9152C6C152400542E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Drop-EFI";
+			};
+			name = Debug;
+		};
+		83D1B9162C6C152400542E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Drop-EFI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D1B8DA2C6C152100542E52 /* Build configuration list for PBXProject "Drop-EFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1B90F2C6C152400542E52 /* Debug */,
+				83D1B9102C6C152400542E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D1B90B2C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1B90C2C6C152400542E52 /* Debug */,
+				83D1B90D2C6C152400542E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D1B9112C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1B9122C6C152400542E52 /* Debug */,
+				83D1B9132C6C152400542E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D1B9142C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1B9152C6C152400542E52 /* Debug */,
+				83D1B9162C6C152400542E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D1B8D72C6C152100542E52 /* Project object */;
+}
