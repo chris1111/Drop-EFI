@@ -1,6 +1,6 @@
 ## Xcode Build Drop EFI
 ### Minimum Deployments macOS 11.5
-- If you have aready installed Drop EFI, make sur uninstall it from Applications and Status Bar.
+- If you have already installed Drop EFI, make sur uninstall it from Applications and Status Bar.
 - Remove also from Login Item.
 
 - [x] `Command Build`
