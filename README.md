@@ -1,5 +1,6 @@
 # Drop-EFI for macOS
-Update 10 Aug 2024 Fix an issue on macOS Sequoia 15 Beta
+- Update 13 Aug 2024 Add Xcode Build source
+- Update 10 Aug 2024 Fix an issue on macOS Sequoia 15 Beta
 
 Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 - It works from 10.12 to macOS Sequoia 15.
@@ -11,7 +12,8 @@ Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 - Build by [chris1111](https://github.com/chris1111/)
 - Created from [Script Debugger](https://latenightsw.com/)
 - Credit: [Clover team for Mount EFI script](https://sourceforge.net/projects/cloverefiboot/)
-
+- Status Bar Create from [Platypus](https://sveinbjorn.org/platypus)
+  
 ## Xcode Build source ➤ [Drop EFI Xcode](https://github.com/chris1111/Drop-EFI/blob/Master/Xcode-Build.md)
 
 ### Download ➤ [Drop EFI V3](https://github.com/chris1111/Drop-EFI/releases/tag/V3) For macOS Sequoia 15
