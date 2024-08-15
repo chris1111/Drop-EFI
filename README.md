@@ -1,4 +1,6 @@
 # Drop-EFI for macOS
+
+- Update 15 Aug 2024 New StatusBarApp, new Drop EFI Applications built entirely in AppleScript Code
 - Update 13 Aug 2024 Add Xcode Build source
 - Update 10 Aug 2024 Fix an issue on macOS Sequoia 15 Beta
 
