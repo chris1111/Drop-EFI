@@ -21,3 +21,9 @@ make
 ### View Utilisation Video ⬇︎
 
 [![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/_MZkufYENdM)
+
+### Usage: Mount/Unmount EFI ⬇︎
+
+https://github.com/user-attachments/assets/61300390-85c5-4de1-9da5-07711dd62179
+
+
