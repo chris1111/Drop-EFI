@@ -26,4 +26,8 @@ make
 
 https://github.com/user-attachments/assets/61300390-85c5-4de1-9da5-07711dd62179
 
+## Release Build is also create 
+
+![Screenshot Release](https://github.com/user-attachments/assets/d66f4f5c-c7d2-4c01-9d9b-74ee1058241e)
+
 
