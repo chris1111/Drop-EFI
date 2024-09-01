@@ -7,307 +7,233 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83D1B9472C6C156700542E52 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1B9242C6C156700542E52 /* Sparkle.framework */; };
-		83D1B9482C6C156700542E52 /* Badge.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92D2C6C156700542E52 /* Badge.tiff */; };
-		83D1B9492C6C156700542E52 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91B2C6C156700542E52 /* MainMenu.nib */; };
-		83D1B94A2C6C156700542E52 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9302C6C156700542E52 /* Credits.html */; };
-		83D1B94B2C6C156700542E52 /* DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9342C6C156700542E52 /* DocumentIcon.png */; };
-		83D1B94C2C6C156700542E52 /* Helper-EFI in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9282C6C156700542E52 /* Helper-EFI */; };
-		83D1B94D2C6C156700542E52 /* ChooseFromListViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92F2C6C156700542E52 /* ChooseFromListViewController.nib */; };
-		83D1B94E2C6C156700542E52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91F2C6C156700542E52 /* Info.plist */; };
-		83D1B94F2C6C156700542E52 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92C2C6C156700542E52 /* Assets.car */; };
-		83D1B9502C6C156700542E52 /* applet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B92B2C6C156700542E52 /* applet.icns */; };
-		83D1B9512C6C156700542E52 /* Main.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B93C2C6C156700542E52 /* Main.storyboardc */; };
-		83D1B9522C6C156700542E52 /* DropFilesViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9362C6C156700542E52 /* DropFilesViewController.nib */; };
-		83D1B9532C6C156700542E52 /* description.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9312C6C156700542E52 /* description.rtfd */; };
-		83D1B9542C6C156700542E52 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9432C6C156700542E52 /* PkgInfo */; };
-		83D1B9552C6C156700542E52 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B93E2C6C156700542E52 /* Main.strings */; };
-		83D1B9562C6C156700542E52 /* CodeResources in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9222C6C156700542E52 /* CodeResources */; };
-		83D1B9572C6C156700542E52 /* VolumeUnmount.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91D2C6C156700542E52 /* VolumeUnmount.aiff */; };
-		83D1B9582C6C156700542E52 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9192C6C156700542E52 /* AppIcon.icns */; };
-		83D1B9592C6C156700542E52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B93A2C6C156700542E52 /* Localizable.strings */; };
-		83D1B95A2C6C156700542E52 /* main.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9292C6C156700542E52 /* main.scpt */; };
-		83D1B95B2C6C156700542E52 /* FancyDroplet in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9262C6C156700542E52 /* FancyDroplet */; };
-		83D1B95C2C6C156700542E52 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9422C6C156700542E52 /* Info.plist */; };
-		83D1B95D2C6C156700542E52 /* SpotlightViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9402C6C156700542E52 /* SpotlightViewController.nib */; };
-		83D1B95E2C6C156700542E52 /* script in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91C2C6C156700542E52 /* script */; };
-		83D1B95F2C6C156700542E52 /* AppSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B91A2C6C156700542E52 /* AppSettings.plist */; };
-		83D1B9602C6C156700542E52 /* DisplayDialogViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9332C6C156700542E52 /* DisplayDialogViewController.nib */; };
-		83D1B9612C6C156700542E52 /* Drop-EFI in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9172C6C156700542E52 /* Drop-EFI */; };
-		83D1B9622C6C156700542E52 /* droplet.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9382C6C156700542E52 /* droplet.tiff */; };
-		83D1B9632C6C156700542E52 /* droplet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9372C6C156700542E52 /* droplet.icns */; };
-		83D1B9D52C6C20AA00542E52 /* Build-App.command in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9D42C6C20AA00542E52 /* Build-App.command */; };
-		83D1B9D72C6C20B500542E52 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 83D1B9D62C6C20B500542E52 /* makefile */; };
+		834699E22C849A8900D48C7B /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834699BE2C849A8900D48C7B /* Sparkle.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		83D1B8F92C6C152400542E52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83D1B8D72C6C152100542E52 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83D1B8DE2C6C152100542E52;
-			remoteInfo = "Drop-EFI";
+/* Begin PBXCopyFilesBuildPhase section */
+		8346999C2C84971A00D48C7B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-		83D1B9032C6C152400542E52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83D1B8D72C6C152100542E52 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83D1B8DE2C6C152100542E52;
-			remoteInfo = "Drop-EFI";
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		83D1B8DF2C6C152200542E52 /* Drop-EFI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop-EFI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D1B8F82C6C152400542E52 /* Drop-EFITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drop-EFITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D1B9022C6C152400542E52 /* Drop-EFIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drop-EFIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D1B9172C6C156700542E52 /* Drop-EFI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "Drop-EFI"; sourceTree = "<group>"; };
-		83D1B9192C6C156700542E52 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
-		83D1B91A2C6C156700542E52 /* AppSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = AppSettings.plist; sourceTree = "<group>"; };
-		83D1B91B2C6C156700542E52 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
-		83D1B91C2C6C156700542E52 /* script */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = script; sourceTree = "<group>"; };
-		83D1B91D2C6C156700542E52 /* VolumeUnmount.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = VolumeUnmount.aiff; sourceTree = "<group>"; };
-		83D1B91F2C6C156700542E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
-		83D1B9222C6C156700542E52 /* CodeResources */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
-		83D1B9242C6C156700542E52 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		83D1B9262C6C156700542E52 /* FancyDroplet */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = FancyDroplet; sourceTree = "<group>"; };
-		83D1B9282C6C156700542E52 /* Helper-EFI */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Helper-EFI"; sourceTree = "<group>"; };
-		83D1B9292C6C156700542E52 /* main.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.scpt; sourceTree = "<group>"; };
-		83D1B92B2C6C156700542E52 /* applet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = applet.icns; sourceTree = "<group>"; };
-		83D1B92C2C6C156700542E52 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
-		83D1B92D2C6C156700542E52 /* Badge.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Badge.tiff; sourceTree = "<group>"; };
-		83D1B92E2C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Base; path = Base.lproj/ChooseFromListViewController.nib; sourceTree = "<group>"; };
-		83D1B9302C6C156700542E52 /* Credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
-		83D1B9312C6C156700542E52 /* description.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = description.rtfd; sourceTree = "<group>"; };
-		83D1B9322C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Base; path = Base.lproj/DisplayDialogViewController.nib; sourceTree = "<group>"; };
-		83D1B9342C6C156700542E52 /* DocumentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DocumentIcon.png; sourceTree = "<group>"; };
-		83D1B9352C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Base; path = Base.lproj/DropFilesViewController.nib; sourceTree = "<group>"; };
-		83D1B9372C6C156700542E52 /* droplet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = droplet.icns; sourceTree = "<group>"; };
-		83D1B9382C6C156700542E52 /* droplet.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = droplet.tiff; sourceTree = "<group>"; };
-		83D1B9392C6C156700542E52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		83D1B93B2C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storyboardc; name = Base; path = Base.lproj/Main.storyboardc; sourceTree = "<group>"; };
-		83D1B93D2C6C156700542E52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		83D1B93F2C6C156700542E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/SpotlightViewController.nib; sourceTree = "<group>"; };
-		83D1B9422C6C156700542E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83D1B9432C6C156700542E52 /* PkgInfo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
-		83D1B9D42C6C20AA00542E52 /* Build-App.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Build-App.command"; sourceTree = "<group>"; };
-		83D1B9D62C6C20B500542E52 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		8346999E2C84971A00D48C7B /* Drop-EFI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Drop-EFI"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834699AD2C849A8900D48C7B /* applet */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = applet; sourceTree = "<group>"; };
+		834699AF2C849A8900D48C7B /* main.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.scpt; sourceTree = "<group>"; };
+		834699B12C849A8900D48C7B /* Unmount */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Unmount; sourceTree = "<group>"; };
+		834699B22C849A8900D48C7B /* VolumeUnmount.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = VolumeUnmount.aiff; sourceTree = "<group>"; };
+		834699B42C849A8900D48C7B /* applet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = applet.icns; sourceTree = "<group>"; };
+		834699B52C849A8900D48C7B /* applet.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = applet.rsrc; sourceTree = "<group>"; };
+		834699B62C849A8900D48C7B /* description.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = description.rtfd; sourceTree = "<group>"; };
+		834699B82C849A8900D48C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834699B92C849A8900D48C7B /* PkgInfo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
+		834699BC2C849A8900D48C7B /* CodeResources */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
+		834699BE2C849A8900D48C7B /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		834699C02C849A8900D48C7B /* FancyDropletFat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = FancyDropletFat; sourceTree = "<group>"; };
+		834699C22C849A8900D48C7B /* Helper-EFI */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Helper-EFI"; sourceTree = "<group>"; };
+		834699C32C849A8900D48C7B /* main.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.scpt; sourceTree = "<group>"; };
+		834699C42C849A8900D48C7B /* main.recover.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = main.recover.rtf; sourceTree = "<group>"; };
+		834699C62C849A8900D48C7B /* applet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = applet.icns; sourceTree = "<group>"; };
+		834699C72C849A8900D48C7B /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
+		834699C82C849A8900D48C7B /* Badge.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Badge.tiff; sourceTree = "<group>"; };
+		834699C92C849A8900D48C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/ChooseFromListViewController.nib; sourceTree = "<group>"; };
+		834699CB2C849A8900D48C7B /* Credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		834699CC2C849A8900D48C7B /* description.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = description.rtfd; sourceTree = "<group>"; };
+		834699CD2C849A8900D48C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/DisplayDialogViewController.nib; sourceTree = "<group>"; };
+		834699CF2C849A8900D48C7B /* DocumentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DocumentIcon.png; sourceTree = "<group>"; };
+		834699D02C849A8900D48C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/DropFilesViewController.nib; sourceTree = "<group>"; };
+		834699D22C849A8900D48C7B /* droplet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = droplet.icns; sourceTree = "<group>"; };
+		834699D32C849A8900D48C7B /* droplet.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = droplet.tiff; sourceTree = "<group>"; };
+		834699D42C849A8900D48C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		834699D62C849A8900D48C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storyboardc; name = Base; path = Base.lproj/Main.storyboardc; sourceTree = "<group>"; };
+		834699D82C849A8900D48C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		834699DA2C849A8900D48C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/SpotlightViewController.nib; sourceTree = "<group>"; };
+		834699DD2C849A8900D48C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834699DE2C849A8900D48C7B /* PkgInfo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		83D1B90A2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Drop-EFI" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"/Localized: Document.xib",
-				"/Localized: MainMenu.xib",
-				Info.plist,
-			);
-			target = 83D1B8DE2C6C152100542E52 /* Drop-EFI */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		83D1B90E2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Copy Bundle Resources" phase from "Drop-EFI" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 83D1B8DD2C6C152100542E52 /* Resources */;
-			membershipExceptions = (
-				Base.lproj/Document.xib,
-				Base.lproj/MainMenu.xib,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		83D1B8E12C6C152200542E52 /* Drop-EFI */ = {
+		834699A02C84971A00D48C7B /* Drop-EFI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				83D1B90A2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Drop-EFI" target */,
-				83D1B90E2C6C152400542E52 /* Exceptions for "Drop-EFI" folder in "Copy Bundle Resources" phase from "Drop-EFI" target */,
-			);
 			path = "Drop-EFI";
-			sourceTree = "<group>";
-		};
-		83D1B8FB2C6C152400542E52 /* Drop-EFITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Drop-EFITests";
-			sourceTree = "<group>";
-		};
-		83D1B9052C6C152400542E52 /* Drop-EFIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Drop-EFIUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83D1B8DC2C6C152100542E52 /* Frameworks */ = {
+		8346999B2C84971A00D48C7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D1B9472C6C156700542E52 /* Sparkle.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1B8F52C6C152400542E52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1B8FF2C6C152400542E52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				834699E22C849A8900D48C7B /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83D1B8D62C6C152100542E52 = {
+		834699952C84971A00D48C7B = {
 			isa = PBXGroup;
 			children = (
-				83D1B9D62C6C20B500542E52 /* makefile */,
-				83D1B9D42C6C20AA00542E52 /* Build-App.command */,
-				83D1B9462C6C156700542E52 /* PackageRoot */,
-				83D1B8E12C6C152200542E52 /* Drop-EFI */,
-				83D1B8FB2C6C152400542E52 /* Drop-EFITests */,
-				83D1B9052C6C152400542E52 /* Drop-EFIUITests */,
-				83D1B8E02C6C152200542E52 /* Products */,
+				834699E12C849A8900D48C7B /* PackageRoot */,
+				834699A02C84971A00D48C7B /* Drop-EFI */,
+				8346999F2C84971A00D48C7B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83D1B8E02C6C152200542E52 /* Products */ = {
+		8346999F2C84971A00D48C7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B8DF2C6C152200542E52 /* Drop-EFI.app */,
-				83D1B8F82C6C152400542E52 /* Drop-EFITests.xctest */,
-				83D1B9022C6C152400542E52 /* Drop-EFIUITests.xctest */,
+				8346999E2C84971A00D48C7B /* Drop-EFI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83D1B9182C6C156700542E52 /* MacOS */ = {
+		834699AE2C849A8900D48C7B /* MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B9172C6C156700542E52 /* Drop-EFI */,
+				834699AD2C849A8900D48C7B /* applet */,
 			);
 			path = MacOS;
 			sourceTree = "<group>";
 		};
-		83D1B91E2C6C156700542E52 /* Resources */ = {
+		834699B02C849A8900D48C7B /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B9192C6C156700542E52 /* AppIcon.icns */,
-				83D1B91A2C6C156700542E52 /* AppSettings.plist */,
-				83D1B91B2C6C156700542E52 /* MainMenu.nib */,
-				83D1B91C2C6C156700542E52 /* script */,
-				83D1B91D2C6C156700542E52 /* VolumeUnmount.aiff */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		83D1B9202C6C156700542E52 /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				83D1B9182C6C156700542E52 /* MacOS */,
-				83D1B91E2C6C156700542E52 /* Resources */,
-				83D1B91F2C6C156700542E52 /* Info.plist */,
-			);
-			path = Contents;
-			sourceTree = "<group>";
-		};
-		83D1B9212C6C156700542E52 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				83D1B9202C6C156700542E52 /* Contents */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		83D1B9232C6C156700542E52 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				83D1B9222C6C156700542E52 /* CodeResources */,
-			);
-			path = _CodeSignature;
-			sourceTree = "<group>";
-		};
-		83D1B9252C6C156700542E52 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				83D1B9242C6C156700542E52 /* Sparkle.framework */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		83D1B9272C6C156700542E52 /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				83D1B9262C6C156700542E52 /* FancyDroplet */,
-			);
-			path = MacOS;
-			sourceTree = "<group>";
-		};
-		83D1B92A2C6C156700542E52 /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				83D1B9282C6C156700542E52 /* Helper-EFI */,
-				83D1B9292C6C156700542E52 /* main.scpt */,
+				834699AF2C849A8900D48C7B /* main.scpt */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";
 		};
-		83D1B9412C6C156700542E52 /* Resources */ = {
+		834699B32C849A8900D48C7B /* UMOUNT */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B92A2C6C156700542E52 /* Scripts */,
-				83D1B92B2C6C156700542E52 /* applet.icns */,
-				83D1B92C2C6C156700542E52 /* Assets.car */,
-				83D1B92D2C6C156700542E52 /* Badge.tiff */,
-				83D1B92F2C6C156700542E52 /* ChooseFromListViewController.nib */,
-				83D1B9302C6C156700542E52 /* Credits.html */,
-				83D1B9312C6C156700542E52 /* description.rtfd */,
-				83D1B9332C6C156700542E52 /* DisplayDialogViewController.nib */,
-				83D1B9342C6C156700542E52 /* DocumentIcon.png */,
-				83D1B9362C6C156700542E52 /* DropFilesViewController.nib */,
-				83D1B9372C6C156700542E52 /* droplet.icns */,
-				83D1B9382C6C156700542E52 /* droplet.tiff */,
-				83D1B93A2C6C156700542E52 /* Localizable.strings */,
-				83D1B93C2C6C156700542E52 /* Main.storyboardc */,
-				83D1B93E2C6C156700542E52 /* Main.strings */,
-				83D1B9402C6C156700542E52 /* SpotlightViewController.nib */,
+				834699B12C849A8900D48C7B /* Unmount */,
+				834699B22C849A8900D48C7B /* VolumeUnmount.aiff */,
+			);
+			path = UMOUNT;
+			sourceTree = "<group>";
+		};
+		834699B72C849A8900D48C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				834699B02C849A8900D48C7B /* Scripts */,
+				834699B32C849A8900D48C7B /* UMOUNT */,
+				834699B42C849A8900D48C7B /* applet.icns */,
+				834699B52C849A8900D48C7B /* applet.rsrc */,
+				834699B62C849A8900D48C7B /* description.rtfd */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		83D1B9442C6C156700542E52 /* Contents */ = {
+		834699BA2C849A8900D48C7B /* Contents */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B9232C6C156700542E52 /* _CodeSignature */,
-				83D1B9252C6C156700542E52 /* Frameworks */,
-				83D1B9272C6C156700542E52 /* MacOS */,
-				83D1B9412C6C156700542E52 /* Resources */,
-				83D1B9422C6C156700542E52 /* Info.plist */,
-				83D1B9432C6C156700542E52 /* PkgInfo */,
+				834699AE2C849A8900D48C7B /* MacOS */,
+				834699B72C849A8900D48C7B /* Resources */,
+				834699B82C849A8900D48C7B /* Info.plist */,
+				834699B92C849A8900D48C7B /* PkgInfo */,
 			);
 			path = Contents;
 			sourceTree = "<group>";
 		};
-		83D1B9452C6C156700542E52 /* InsideApp */ = {
+		834699BB2C849A8900D48C7B /* App */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B9442C6C156700542E52 /* Contents */,
+				834699BA2C849A8900D48C7B /* Contents */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		834699BD2C849A8900D48C7B /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				834699BC2C849A8900D48C7B /* CodeResources */,
+			);
+			path = _CodeSignature;
+			sourceTree = "<group>";
+		};
+		834699BF2C849A8900D48C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				834699BE2C849A8900D48C7B /* Sparkle.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		834699C12C849A8900D48C7B /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				834699C02C849A8900D48C7B /* FancyDropletFat */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		834699C52C849A8900D48C7B /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				834699C22C849A8900D48C7B /* Helper-EFI */,
+				834699C32C849A8900D48C7B /* main.scpt */,
+				834699C42C849A8900D48C7B /* main.recover.rtf */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		834699DC2C849A8900D48C7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				834699C52C849A8900D48C7B /* Scripts */,
+				834699C62C849A8900D48C7B /* applet.icns */,
+				834699C72C849A8900D48C7B /* Assets.car */,
+				834699C82C849A8900D48C7B /* Badge.tiff */,
+				834699CA2C849A8900D48C7B /* ChooseFromListViewController.nib */,
+				834699CB2C849A8900D48C7B /* Credits.html */,
+				834699CC2C849A8900D48C7B /* description.rtfd */,
+				834699CE2C849A8900D48C7B /* DisplayDialogViewController.nib */,
+				834699CF2C849A8900D48C7B /* DocumentIcon.png */,
+				834699D12C849A8900D48C7B /* DropFilesViewController.nib */,
+				834699D22C849A8900D48C7B /* droplet.icns */,
+				834699D32C849A8900D48C7B /* droplet.tiff */,
+				834699D52C849A8900D48C7B /* Localizable.strings */,
+				834699D72C849A8900D48C7B /* Main.storyboardc */,
+				834699D92C849A8900D48C7B /* Main.strings */,
+				834699DB2C849A8900D48C7B /* SpotlightViewController.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		834699DF2C849A8900D48C7B /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				834699BD2C849A8900D48C7B /* _CodeSignature */,
+				834699BF2C849A8900D48C7B /* Frameworks */,
+				834699C12C849A8900D48C7B /* MacOS */,
+				834699DC2C849A8900D48C7B /* Resources */,
+				834699DD2C849A8900D48C7B /* Info.plist */,
+				834699DE2C849A8900D48C7B /* PkgInfo */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		834699E02C849A8900D48C7B /* InsideApp */ = {
+			isa = PBXGroup;
+			children = (
+				834699DF2C849A8900D48C7B /* Contents */,
 			);
 			path = InsideApp;
 			sourceTree = "<group>";
 		};
-		83D1B9462C6C156700542E52 /* PackageRoot */ = {
+		834699E12C849A8900D48C7B /* PackageRoot */ = {
 			isa = PBXGroup;
 			children = (
-				83D1B9212C6C156700542E52 /* App */,
-				83D1B9452C6C156700542E52 /* InsideApp */,
+				834699BB2C849A8900D48C7B /* App */,
+				834699E02C849A8900D48C7B /* InsideApp */,
 			);
 			path = PackageRoot;
 			sourceTree = "<group>";
@@ -315,261 +241,113 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83D1B8DE2C6C152100542E52 /* Drop-EFI */ = {
+		8346999D2C84971A00D48C7B /* Drop-EFI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83D1B90B2C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFI" */;
+			buildConfigurationList = 834699A52C84971A00D48C7B /* Build configuration list for PBXNativeTarget "Drop-EFI" */;
 			buildPhases = (
-				83D1B8DB2C6C152100542E52 /* Sources */,
-				83D1B8DC2C6C152100542E52 /* Frameworks */,
-				83D1B8DD2C6C152100542E52 /* Resources */,
+				8346999B2C84971A00D48C7B /* Frameworks */,
+				8346999C2C84971A00D48C7B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				83D1B8E12C6C152200542E52 /* Drop-EFI */,
+				834699A02C84971A00D48C7B /* Drop-EFI */,
 			);
 			name = "Drop-EFI";
 			packageProductDependencies = (
 			);
 			productName = "Drop-EFI";
-			productReference = 83D1B8DF2C6C152200542E52 /* Drop-EFI.app */;
-			productType = "com.apple.product-type.application";
-		};
-		83D1B8F72C6C152400542E52 /* Drop-EFITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83D1B9112C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFITests" */;
-			buildPhases = (
-				83D1B8F42C6C152400542E52 /* Sources */,
-				83D1B8F52C6C152400542E52 /* Frameworks */,
-				83D1B8F62C6C152400542E52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83D1B8FA2C6C152400542E52 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				83D1B8FB2C6C152400542E52 /* Drop-EFITests */,
-			);
-			name = "Drop-EFITests";
-			packageProductDependencies = (
-			);
-			productName = "Drop-EFITests";
-			productReference = 83D1B8F82C6C152400542E52 /* Drop-EFITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		83D1B9012C6C152400542E52 /* Drop-EFIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83D1B9142C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFIUITests" */;
-			buildPhases = (
-				83D1B8FE2C6C152400542E52 /* Sources */,
-				83D1B8FF2C6C152400542E52 /* Frameworks */,
-				83D1B9002C6C152400542E52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83D1B9042C6C152400542E52 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				83D1B9052C6C152400542E52 /* Drop-EFIUITests */,
-			);
-			name = "Drop-EFIUITests";
-			packageProductDependencies = (
-			);
-			productName = "Drop-EFIUITests";
-			productReference = 83D1B9022C6C152400542E52 /* Drop-EFIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productReference = 8346999E2C84971A00D48C7B /* Drop-EFI */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83D1B8D72C6C152100542E52 /* Project object */ = {
+		834699962C84971A00D48C7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					83D1B8DE2C6C152100542E52 = {
+					8346999D2C84971A00D48C7B = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					83D1B8F72C6C152400542E52 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 83D1B8DE2C6C152100542E52;
-					};
-					83D1B9012C6C152400542E52 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 83D1B8DE2C6C152100542E52;
 					};
 				};
 			};
-			buildConfigurationList = 83D1B8DA2C6C152100542E52 /* Build configuration list for PBXProject "Drop-EFI" */;
+			buildConfigurationList = 834699992C84971A00D48C7B /* Build configuration list for PBXProject "Drop-EFI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 83D1B8D62C6C152100542E52;
+			mainGroup = 834699952C84971A00D48C7B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 83D1B8E02C6C152200542E52 /* Products */;
+			productRefGroup = 8346999F2C84971A00D48C7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83D1B8DE2C6C152100542E52 /* Drop-EFI */,
-				83D1B8F72C6C152400542E52 /* Drop-EFITests */,
-				83D1B9012C6C152400542E52 /* Drop-EFIUITests */,
+				8346999D2C84971A00D48C7B /* Drop-EFI */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		83D1B8DD2C6C152100542E52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83D1B9482C6C156700542E52 /* Badge.tiff in Resources */,
-				83D1B9492C6C156700542E52 /* MainMenu.nib in Resources */,
-				83D1B94A2C6C156700542E52 /* Credits.html in Resources */,
-				83D1B94B2C6C156700542E52 /* DocumentIcon.png in Resources */,
-				83D1B94C2C6C156700542E52 /* Helper-EFI in Resources */,
-				83D1B94D2C6C156700542E52 /* ChooseFromListViewController.nib in Resources */,
-				83D1B94E2C6C156700542E52 /* Info.plist in Resources */,
-				83D1B94F2C6C156700542E52 /* Assets.car in Resources */,
-				83D1B9502C6C156700542E52 /* applet.icns in Resources */,
-				83D1B9512C6C156700542E52 /* Main.storyboardc in Resources */,
-				83D1B9522C6C156700542E52 /* DropFilesViewController.nib in Resources */,
-				83D1B9532C6C156700542E52 /* description.rtfd in Resources */,
-				83D1B9542C6C156700542E52 /* PkgInfo in Resources */,
-				83D1B9552C6C156700542E52 /* Main.strings in Resources */,
-				83D1B9562C6C156700542E52 /* CodeResources in Resources */,
-				83D1B9572C6C156700542E52 /* VolumeUnmount.aiff in Resources */,
-				83D1B9582C6C156700542E52 /* AppIcon.icns in Resources */,
-				83D1B9592C6C156700542E52 /* Localizable.strings in Resources */,
-				83D1B95A2C6C156700542E52 /* main.scpt in Resources */,
-				83D1B95B2C6C156700542E52 /* FancyDroplet in Resources */,
-				83D1B95C2C6C156700542E52 /* Info.plist in Resources */,
-				83D1B95D2C6C156700542E52 /* SpotlightViewController.nib in Resources */,
-				83D1B95E2C6C156700542E52 /* script in Resources */,
-				83D1B95F2C6C156700542E52 /* AppSettings.plist in Resources */,
-				83D1B9602C6C156700542E52 /* DisplayDialogViewController.nib in Resources */,
-				83D1B9D52C6C20AA00542E52 /* Build-App.command in Resources */,
-				83D1B9612C6C156700542E52 /* Drop-EFI in Resources */,
-				83D1B9622C6C156700542E52 /* droplet.tiff in Resources */,
-				83D1B9632C6C156700542E52 /* droplet.icns in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1B8F62C6C152400542E52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1B9002C6C152400542E52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		83D1B8DB2C6C152100542E52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83D1B9D72C6C20B500542E52 /* makefile in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1B8F42C6C152400542E52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1B8FE2C6C152400542E52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		83D1B8FA2C6C152400542E52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83D1B8DE2C6C152100542E52 /* Drop-EFI */;
-			targetProxy = 83D1B8F92C6C152400542E52 /* PBXContainerItemProxy */;
-		};
-		83D1B9042C6C152400542E52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83D1B8DE2C6C152100542E52 /* Drop-EFI */;
-			targetProxy = 83D1B9032C6C152400542E52 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		83D1B92F2C6C156700542E52 /* ChooseFromListViewController.nib */ = {
+		834699CA2C849A8900D48C7B /* ChooseFromListViewController.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B92E2C6C156700542E52 /* Base */,
+				834699C92C849A8900D48C7B /* Base */,
 			);
 			name = ChooseFromListViewController.nib;
 			sourceTree = "<group>";
 		};
-		83D1B9332C6C156700542E52 /* DisplayDialogViewController.nib */ = {
+		834699CE2C849A8900D48C7B /* DisplayDialogViewController.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B9322C6C156700542E52 /* Base */,
+				834699CD2C849A8900D48C7B /* Base */,
 			);
 			name = DisplayDialogViewController.nib;
 			sourceTree = "<group>";
 		};
-		83D1B9362C6C156700542E52 /* DropFilesViewController.nib */ = {
+		834699D12C849A8900D48C7B /* DropFilesViewController.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B9352C6C156700542E52 /* Base */,
+				834699D02C849A8900D48C7B /* Base */,
 			);
 			name = DropFilesViewController.nib;
 			sourceTree = "<group>";
 		};
-		83D1B93A2C6C156700542E52 /* Localizable.strings */ = {
+		834699D52C849A8900D48C7B /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B9392C6C156700542E52 /* en */,
+				834699D42C849A8900D48C7B /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		83D1B93C2C6C156700542E52 /* Main.storyboardc */ = {
+		834699D72C849A8900D48C7B /* Main.storyboardc */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B93B2C6C156700542E52 /* Base */,
+				834699D62C849A8900D48C7B /* Base */,
 			);
 			name = Main.storyboardc;
 			sourceTree = "<group>";
 		};
-		83D1B93E2C6C156700542E52 /* Main.strings */ = {
+		834699D92C849A8900D48C7B /* Main.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B93D2C6C156700542E52 /* en */,
+				834699D82C849A8900D48C7B /* en */,
 			);
 			name = Main.strings;
 			sourceTree = "<group>";
 		};
-		83D1B9402C6C156700542E52 /* SpotlightViewController.nib */ = {
+		834699DB2C849A8900D48C7B /* SpotlightViewController.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83D1B93F2C6C156700542E52 /* Base */,
+				834699DA2C849A8900D48C7B /* Base */,
 			);
 			name = SpotlightViewController.nib;
 			sourceTree = "<group>";
@@ -577,67 +355,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83D1B90C2C6C152400542E52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Drop-EFI/Drop_EFI.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/PackageRoot/InsideApp/Contents/Frameworks",
-				);
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Drop-EFI/Info.plist";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Debug;
-		};
-		83D1B90D2C6C152400542E52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Drop-EFI/Drop_EFI.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/PackageRoot/InsideApp/Contents/Frameworks",
-				);
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Drop-EFI/Info.plist";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Release;
-		};
-		83D1B90F2C6C152400542E52 /* Debug */ = {
+		834699A32C84971A00D48C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -698,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		83D1B9102C6C152400542E52 /* Release */ = {
+		834699A42C84971A00D48C7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -752,106 +470,54 @@
 			};
 			name = Release;
 		};
-		83D1B9122C6C152400542E52 /* Debug */ = {
+		834699A62C84971A00D48C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFITests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PackageRoot/InsideApp/Contents/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drop-EFI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drop-EFI";
 			};
 			name = Debug;
 		};
-		83D1B9132C6C152400542E52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drop-EFI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drop-EFI";
-			};
-			name = Release;
-		};
-		83D1B9152C6C152400542E52 /* Debug */ = {
+		834699A72C84971A00D48C7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFIUITests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PackageRoot/InsideApp/Contents/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_TARGET_NAME = "Drop-EFI";
-			};
-			name = Debug;
-		};
-		83D1B9162C6C152400542E52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chris1111.Drop-EFIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_TARGET_NAME = "Drop-EFI";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83D1B8DA2C6C152100542E52 /* Build configuration list for PBXProject "Drop-EFI" */ = {
+		834699992C84971A00D48C7B /* Build configuration list for PBXProject "Drop-EFI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83D1B90F2C6C152400542E52 /* Debug */,
-				83D1B9102C6C152400542E52 /* Release */,
+				834699A32C84971A00D48C7B /* Debug */,
+				834699A42C84971A00D48C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83D1B90B2C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFI" */ = {
+		834699A52C84971A00D48C7B /* Build configuration list for PBXNativeTarget "Drop-EFI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83D1B90C2C6C152400542E52 /* Debug */,
-				83D1B90D2C6C152400542E52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83D1B9112C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83D1B9122C6C152400542E52 /* Debug */,
-				83D1B9132C6C152400542E52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83D1B9142C6C152400542E52 /* Build configuration list for PBXNativeTarget "Drop-EFIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83D1B9152C6C152400542E52 /* Debug */,
-				83D1B9162C6C152400542E52 /* Release */,
+				834699A62C84971A00D48C7B /* Debug */,
+				834699A72C84971A00D48C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83D1B8D72C6C152100542E52 /* Project object */;
+	rootObject = 834699962C84971A00D48C7B /* Project object */;
 }
