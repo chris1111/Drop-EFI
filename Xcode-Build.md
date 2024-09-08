@@ -7,14 +7,10 @@
 
 #### Clone the repository
 ```bash
-git clone https://github.com/chris1111/Drop-EFI.git
-cd $HOME/Drop-EFI/Drop-EFI
+git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI/Drop-EFI && make
 ```
 
-#### Build
-```bash
-make
-```
+
 
 ![Screenshot](https://github.com/user-attachments/assets/73e91167-9f77-4a33-ac36-a4c04cec52db)
 
