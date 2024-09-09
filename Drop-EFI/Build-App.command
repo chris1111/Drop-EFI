@@ -27,6 +27,11 @@ if [ -d "${3}/Applications/Drop-EFI.app" ]; then
         killall -c Drop-EFI
 	rm -rf "${3}/${3}/Applications/Drop-EFI.app"
 fi
+if [ -d "${3}/Applications/Drop EFI.app" ]; then
+        osascript -e 'tell application "System Events" to delete login item "Drop EFI"'
+        killall -c "Drop EFI"
+        rm -rf "${3}/${3}/Applications/Drop EFI.app"
+fi
 cp -Rp ./build/Release/Drop-EFI.app /Applications/Drop-EFI.app
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Drop-EFI.app", hidden:false}'
 Sleep 1
