@@ -18,7 +18,15 @@ chmod +x ./build/Release/Drop-EFI.app/Contents/MacOS
 chmod +x ./build/Release/Drop-EFI.app/Contents/Resources/DropEFI.app/Contents/MacOS
 Sleep 1
 xattr -c ./build/Release/Drop-EFI.app/Contents/Resources/DropEFI.app
-Sleep 1
+Sleep 2
+echo "Remove if exist"
+if [ -d "${3}/Applications/Drop-EFI.app" ]; then
+        osascript -e 'tell application "System Events" to delete login item "Drop-EFI"'
+        killall -c applet
+        killall -c FancyDropletFat
+        killall -c Drop-EFI
+	rm -rf "${3}/${3}/Applications/Drop-EFI.app"
+fi
 cp -Rp ./build/Release/Drop-EFI.app /Applications/Drop-EFI.app
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Drop-EFI.app", hidden:false}'
 Sleep 1
