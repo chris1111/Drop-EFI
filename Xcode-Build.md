@@ -7,14 +7,10 @@
 
 #### Clone the repository
 ```bash
-git clone https://github.com/chris1111/Drop-EFI.git
-cd $HOME/Drop-EFI/Drop-EFI
+git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI/Drop-EFI && make
 ```
 
-#### Build
-```bash
-make
-```
+
 
 ![Screenshot](https://github.com/user-attachments/assets/73e91167-9f77-4a33-ac36-a4c04cec52db)
 
@@ -25,5 +21,9 @@ make
 ### Usage: Mount/Unmount EFI ⬇︎
 
 https://github.com/user-attachments/assets/61300390-85c5-4de1-9da5-07711dd62179
+
+## Release Build is also create 
+
+![Screenshot Release](https://github.com/user-attachments/assets/d66f4f5c-c7d2-4c01-9d9b-74ee1058241e)
 
 
