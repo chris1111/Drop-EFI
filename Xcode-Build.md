@@ -10,22 +10,15 @@
 git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && make
 ```
 
+### View Clone Build Video ⬇︎
 
-![Screenshot-1](https://github.com/user-attachments/assets/a388ed6b-14bb-4a06-81bf-56a6ce0a6df4)
+https://github.com/user-attachments/assets/2090fa27-a904-4962-bb7a-8df593e7e429
 
+### View Usage Mount/Unmount EFI Video ⬇︎
 
-![Screenshot-2](https://github.com/user-attachments/assets/01486236-a4e6-4df4-a003-cec688bc80a0)
+https://github.com/user-attachments/assets/192262d5-7688-4d6a-88c4-1f80a598f9bb
 
-
-### View Utilisation Video ⬇︎
-
-[![Modular Image Creation](https://github.com/user-attachments/assets/68f65560-03ae-4dfe-908f-554e30e2906b)](https://youtu.be/_MZkufYENdM)
-
-### Usage: Mount/Unmount EFI ⬇︎
-
-https://github.com/user-attachments/assets/61300390-85c5-4de1-9da5-07711dd62179
-
-## Release Build
+## Image: Release Build
 
 ![Screenshot-3](https://github.com/user-attachments/assets/839c13da-7d6c-40d6-867b-79305ec082df)
 
