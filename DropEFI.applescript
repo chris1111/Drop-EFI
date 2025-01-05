@@ -28,6 +28,7 @@ script MenuletAppDelegate
 	end doSomething:
 	
 	on doMenuStuff:sender
+		--  Mount EFI using DropEFI
 		activate me
 		set source to quoted form of POSIX path of (path to resource "DropEFI.app")
 		do shell script "open " & source
@@ -57,6 +58,7 @@ script MenuletAppDelegate
 		setupTitle()
 		statusItem's setView:theView
 		spinner's startAnimation:me
+		--  Unmount EFI
 		set source to quoted form of POSIX path of (path to resource "Unmount")
 		do shell script source
 		do shell script "afplay '/System/Library/Components/CoreAudio.component/Contents/SharedSupport/SystemSounds/System/Volume Unmount.aif' &> /dev/null &"
