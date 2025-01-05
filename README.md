@@ -1,9 +1,6 @@
 # Drop-EFI for macOS
-
-- Update 15 Aug 2024 New StatusBarApp, new Drop EFI Applications built entirely in AppleScript Code
-- Update 13 Aug 2024 Add Xcode Build source
-- Update 10 Aug 2024 Fix an issue on macOS Sequoia 15 Beta
-
+- Update 05 Jan 2025 AppleScriptObjC Project
+  
 Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 - It works from macOS Big Sur 11.5 to macOS Sequoia 15.
 - It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS
