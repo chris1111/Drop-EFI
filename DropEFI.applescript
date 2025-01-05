@@ -1,6 +1,6 @@
 --
 --  DropEFI.applescript Created by chris1111 on 1-5-24.
---  Base on (https://www.sonsothunder.com/devres/revolution/tutorials/StatusMenu.html) and Red_Menace work.
+--  Base on (https://www.sonsothunder.com/devres/revolution/tutorials/StatusMenu.html).
 --
 
 property NSBundle : class "NSBundle"
