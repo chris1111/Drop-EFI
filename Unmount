@@ -1,0 +1,32 @@
+#!/bin/bash
+# Umount-EFI
+# by chris1111
+
+  # Umount EFI
+  if [ -d "/Volumes/EFI" ]; then
+    hdiutil Unmount -Force "/Volumes/EFI"
+  fi
+
+  if [ -d "/Volumes/ESP" ]; then
+    hdiutil Unmount -Force "/Volumes/ESP"
+  fi
+
+  if [ -d "/Volumes/EFI 1" ]; then
+    hdiutil Unmount -Force "/Volumes/EFI 1"
+  fi
+
+  if [ -d "/Volumes/EFI 2" ]; then
+    hdiutil Unmount -Force "/Volumes/EFI 2"
+  fi
+
+  if [ -d "/Volumes/EFI 3" ]; then
+    hdiutil Unmount -Force "/Volumes/EFI 3"
+  fi
+
+  if [ -d "/Volumes/EFI 4" ]; then
+    hdiutil Unmount -Force "/Volumes/EFI 4"
+  fi
+
+  if [ -d "/Volumes/EFI 5" ]; then
+    hdiutil Unmount -Force "/Volumes/EFI 5"
+  fi
