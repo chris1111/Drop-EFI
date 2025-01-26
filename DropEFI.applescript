@@ -86,7 +86,7 @@ script MenuletAppDelegate
 		set spinner to current application's NSProgressIndicator's alloc's initWithFrame:{{0, 0}, {16, 16}}
 		tell spinner # set up spinner properties
 			setControlSize_(current application's NSSmallControlSize)
-			setStyle_(current application's NSProgressIndicatorBarStyle)
+			setStyle_(current application's NSProgressIndicatorSpinningStyle)
 			setUsesThreadedAnimation_(true)
 		end tell
 		set theView to current application's NSView's alloc's initWithFrame:{{0, 0}, {22 + titleWidth, 22}}
