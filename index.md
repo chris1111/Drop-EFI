@@ -22,7 +22,7 @@ Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 ### View Installation Video ⬇︎ Release For macOS Sequoia 15
 
 <video controls autoplay>
-  <source src="Video/Release.mp4" type="video/mp4">
+  <source src="Video/Release.mov" type="video/mov">
 
 </video>
 
