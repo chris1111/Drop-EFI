@@ -30,11 +30,14 @@ script MenuletAppDelegate
 	
 	on doSomething:sender --  Unmount EFI
 		startSpinner()
-		do shell script "afplay '/System/Library/Components/CoreAudio.component/Contents/SharedSupport/SystemSounds/System/Volume Unmount.aif' &> /dev/null &"
 		set source to quoted form of POSIX path of (path to resource "Unmount")
+		set Unmountaif to quoted form of POSIX path of (path to resource "Unmountaif")
+		set Notification to quoted form of POSIX path of (path to resource "Notification")
 		performSelector_withObject_afterDelay_("stopSpinner", missing value, 2.5)
 		delay 2.5
-		do shell script source
+		do shell script source with administrator privileges
+		do shell script Unmountaif
+		do shell script Notification
 	end doSomething:
 	
 	on awakeFromNib()

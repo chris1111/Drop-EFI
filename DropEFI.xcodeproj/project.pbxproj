@@ -11,6 +11,8 @@
 		3B92A9F90F6ED2CB0023785B /* DropEFI.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 3B92A9F80F6ED2CB0023785B /* DropEFI.applescript */; };
 		3BC3FB040ED20C27004AC079 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */; };
 		838193DE2D2985210043FA3A /* Unmount in Resources */ = {isa = PBXBuildFile; fileRef = 838193DC2D2985210043FA3A /* Unmount */; };
+		839B84CB2D59078400ECFF04 /* Notification in Resources */ = {isa = PBXBuildFile; fileRef = 839B84CA2D59078400ECFF04 /* Notification */; };
+		839B84CD2D59078D00ECFF04 /* Unmountaif in Resources */ = {isa = PBXBuildFile; fileRef = 839B84CC2D59078D00ECFF04 /* Unmountaif */; };
 		83E263842D29F3DA00AF94A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E263832D29F3DA00AF94A8 /* Assets.xcassets */; };
 		83E263862D29F3E000AF94A8 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83E263852D29F3E000AF94A8 /* AppIcon.icns */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -32,6 +34,8 @@
 		3B92A9F80F6ED2CB0023785B /* DropEFI.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = DropEFI.applescript; sourceTree = "<group>"; };
 		3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = /System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = "<absolute>"; };
 		838193DC2D2985210043FA3A /* Unmount */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Unmount; sourceTree = "<group>"; };
+		839B84CA2D59078400ECFF04 /* Notification */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Notification; sourceTree = "<group>"; };
+		839B84CC2D59078D00ECFF04 /* Unmountaif */ = {isa = PBXFileReference; lastKnownFileType = text; path = Unmountaif; sourceTree = "<group>"; };
 		83E263832D29F3DA00AF94A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E263852D29F3E000AF94A8 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DropEFI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DropEFI-Info.plist"; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				838193DC2D2985210043FA3A /* Unmount */,
+				839B84CA2D59078400ECFF04 /* Notification */,
+				839B84CC2D59078D00ECFF04 /* Unmountaif */,
 				9060979E1158664A00EE0714 /* Applet.png */,
 				9015E6C611585729008B2646 /* Assistant.png */,
 				8D1107310486CEB800E47090 /* DropEFI-Info.plist */,
@@ -187,7 +193,9 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				83E263862D29F3E000AF94A8 /* AppIcon.icns in Resources */,
+				839B84CB2D59078400ECFF04 /* Notification in Resources */,
 				9015E6C711585729008B2646 /* Assistant.png in Resources */,
+				839B84CD2D59078D00ECFF04 /* Unmountaif in Resources */,
 				9060979F1158664A00EE0714 /* Applet.png in Resources */,
 				838193DE2D2985210043FA3A /* Unmount in Resources */,
 				83E263842D29F3DA00AF94A8 /* Assets.xcassets in Resources */,

@@ -2,36 +2,11 @@
 # Umount-EFI
 # by chris1111
 
-# Umount EFI
+DEST_VOL="/Volumes/EFI"
 if [ -d "/Volumes/EFI" ]; then
-  hdiutil Unmount -Force "/Volumes/EFI"
+  umount -f "$DEST_VOL"*
 fi
 
-if [ -d "/Volumes/ESP" ]; then
-  hdiutil Unmount -Force "/Volumes/ESP"
-fi
 
-if [ -d "/Volumes/EFI 1" ]; then
-  hdiutil Unmount -Force "/Volumes/EFI 1"
-fi
 
-if [ -d "/Volumes/EFI 2" ]; then
-  hdiutil Unmount -Force "/Volumes/EFI 2"
-fi
 
-if [ -d "/Volumes/EFI 3" ]; then
-  hdiutil Unmount -Force "/Volumes/EFI 3"
-fi
-
-if [ -d "/Volumes/EFI 4" ]; then
-  hdiutil Unmount -Force "/Volumes/EFI 4"
-fi
-
-if [ -d "/Volumes/EFI 5" ]; then
-  hdiutil Unmount -Force "/Volumes/EFI 5"
-fi
-
-# Restart AlternateImage
-if [ -d "/Applications/DropEFI.app" ]; then
-  killall -c DropEFI && sleep 0.2 && open /Applications/DropEFI.app && sleep 0.5 && osascript -e 'display notification "Successfully Unmount" with title "DropEFI" subtitle "EFI Partition" sound name "funk"'
-fi

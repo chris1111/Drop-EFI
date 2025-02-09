@@ -1,0 +1,9 @@
+#!/usr/bin/osascript
+# Unmountaif
+# by chris1111
+
+do shell script "afplay '/System/Library/Components/CoreAudio.component/Contents/SharedSupport/SystemSounds/System/Volume Unmount.aif' &> /dev/null &"
+
+
+
+
