@@ -26,5 +26,12 @@ Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 
 </video>
 
+### View Usage Mount/Unmount EFI Video ⬇︎
+
+<video controls autoplay>
+  <source src="Video/MountUnmout.mp4" type="video/mp4">
+
+</video>
+
 
 
