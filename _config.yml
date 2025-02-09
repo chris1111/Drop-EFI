@@ -1,0 +1,5 @@
+title: Drop-EFI for macOS
+description: Application to mount and Unmount EFI partitions in macOS
+github: 
+  repository_url: https://github.com/chris1111/Drop-EFI
+remote_theme: chris1111/cayman-dark
