@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/2090fa27-a904-4962-bb7a-8df593e7e429
 
 ### View Usage Mount/Unmount EFI Video ⬇︎
 
-https://github.com/user-attachments/assets/192262d5-7688-4d6a-88c4-1f80a598f9bb
+https://github.com/user-attachments/assets/6bd7d7e7-a662-4503-b46f-8dd8d6618e1c
 
 ## Image: Release Build
 
