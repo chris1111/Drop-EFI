@@ -14,14 +14,16 @@ git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && ./Au
 
 ### View Clone Build Video ⬇︎
 
+https://github.com/user-attachments/assets/279ee70b-d026-467b-9b50-77fa6f51ad56
+
 
 ### View Usage Mount/Unmount EFI Video ⬇︎
+
+https://github.com/user-attachments/assets/f4341b5e-2d2c-4025-ae50-33c0702fe5f6
+
 
 
 ## Image: Release Build
 
 ![Screenshot-3](https://github.com/user-attachments/assets/839c13da-7d6c-40d6-867b-79305ec082df)
-
-
-
 
