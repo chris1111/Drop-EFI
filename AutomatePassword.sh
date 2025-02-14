@@ -28,7 +28,7 @@ Then press the OK button
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
                 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" default answer "" buttons {"OK"} default button {"OK"} with icon iconfile)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" default answer "" buttons {"OK"} default button {"OK"} with hidden answer with icon iconfile)
 return Box
 EOF
 
