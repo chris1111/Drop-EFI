@@ -10,18 +10,18 @@
 git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && ./BuildChoice.sh
 ```
 
-### View Clone Build Video ⬇︎
+### View Clone Build Video ⬇︎ Automate Password
 
-https://github.com/user-attachments/assets/2090fa27-a904-4962-bb7a-8df593e7e429
+https://github.com/user-attachments/assets/d734d953-c75b-4896-959d-3e3325e00183
+
 
 ### View Usage Mount/Unmount EFI Video ⬇︎
 
-https://github.com/user-attachments/assets/6bd7d7e7-a662-4503-b46f-8dd8d6618e1c
+https://github.com/user-attachments/assets/f4341b5e-2d2c-4025-ae50-33c0702fe5f6
 
 ## Image: Release Build
 
 ![Screenshot-3](https://github.com/user-attachments/assets/839c13da-7d6c-40d6-867b-79305ec082df)
-
 
 
 
