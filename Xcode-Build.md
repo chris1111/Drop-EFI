@@ -15,7 +15,7 @@ git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && ./Bu
 https://github.com/user-attachments/assets/d734d953-c75b-4896-959d-3e3325e00183
 
 
-### View Usage Mount/Unmount EFI Video ⬇︎
+### View Usage Mount/Unmount EFI Video ⬇︎ Automate Password
 
 https://github.com/user-attachments/assets/f4341b5e-2d2c-4025-ae50-33c0702fe5f6
 
