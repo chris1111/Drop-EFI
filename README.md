@@ -1,5 +1,5 @@
 # Drop-EFI for macOS
-- Update 05 Jan 2025 AppleScriptObjC Project
+- Update 15 Feb 2025 Add Automate Password
 -----------------------------------------------------------------  
 Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
 - It works from macOS Big Sur 11.5 to macOS Sequoia 15.
