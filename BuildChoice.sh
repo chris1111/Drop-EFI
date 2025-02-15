@@ -15,8 +15,9 @@ action=$(echo $response | cut -d ':' -f2)
 # Exit if Canceled
 if [ "$action" == "Cancell" ] ; then
      osascript -e 'display notification "Drop EFI quit" with title "'"$apptitle"'" subtitle "User cancel"'
-     echo "User cancel DropEFI quit in 3 sec"
-     Sleep 3    
+     echo "User cancel DropEFI quit in 3 sec . . . Clean Build!"
+     Sleep 3
+     rm -rf $HOME/Drop-EFI
      osascript -e 'quit app "Terminal"'
 fi
 
