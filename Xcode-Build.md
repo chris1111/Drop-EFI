@@ -7,7 +7,7 @@
 
 #### Clone the repository
 ```bash
-git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && make
+git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && ./BuildChoice.sh
 ```
 
 ### View Clone Build Video ⬇︎
