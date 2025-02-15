@@ -6,7 +6,7 @@
 - [x] `Command Build`
 
 ### This build will Automate the task without having to enter your password for your application
-
+- (Your password is integrated into the application)
 #### Clone the repository
 ```bash
 git clone https://github.com/chris1111/Drop-EFI.git && cd $HOME/Drop-EFI && ./AutomatePassword.sh
