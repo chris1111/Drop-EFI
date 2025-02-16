@@ -8,7 +8,7 @@ layout: default
 
 [![pages-build-deployment](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment)
 
-Drop-EFI is a Droplet to mount and Unmount EFI partitions in macOS
+Drop-EFI is a (Status Menu Droplet) to mount and Unmount EFI partitions in macOS
 - It works from macOS Big Sur 11.5 to macOS Sequoia 15.
 - It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS
 - Not working encrypted volume
