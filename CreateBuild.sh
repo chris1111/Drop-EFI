@@ -10,6 +10,9 @@ find . -name '.DS_Store' -type f -delete
 APP_NAME="DropEFI.app"
 SOURCE_SCRIPT="./MountEFI/DropEFI.applescript"
 rm -rf "$APP_NAME"
+APPS_NAME="Notification.app"
+SOURCES_SCRIPT="./Notification.applescript"
+rm -rf "$APPS_NAME"
 
 echo "= = = = = = = = = = = = = = = = = = = = = = = = =  "
 echo "DropEFI"
@@ -51,6 +54,17 @@ cp -rp ./MountEFI/applet.icns "$APP_NAME"/Contents/Resources/
 
 cp -rp ./MountEFI/droplet.icns "$APP_NAME"/Contents/Resources/
 
+# Create the dir structure
+/usr/bin/osacompile -o "$APPS_NAME" "$SOURCES_SCRIPT"
+cp -rp ./MountEFI/Notification/applet.icns "$APPS_NAME"/Contents/Resources/
+cp -rp ./MountEFI/Notification/Info.plist "$APPS_NAME"/Contents/
+cp -rp ./MountEFI/Notification/applet "$APPS_NAME"/Contents/MacOS/
+cp -rp ./MountEFI/Notification/applet.rsrc "$APPS_NAME"/Contents/Resources/
+cp -rp ./MountEFI/Notification/description.rtfd "$APPS_NAME"/Contents/Resources/
+Sleep 1
+cp -rp "$APPS_NAME" ./build/Release/"$APP_NAME"/Contents/Resources/
+Sleep 1
+rm -rf "$APPS_NAME"
 # Zip app
 Sleep 1
 zip -r "$APP_NAME".zip "$APP_NAME"
