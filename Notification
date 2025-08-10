@@ -1,10 +1,11 @@
 #!/bin/bash
 # Notification
 # by chris1111
-
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
 # Restart AlternateImage
 if [ -d "/Applications/DropEFI.app" ]; then
-  killall -c DropEFI && sleep 0.2 && open /Applications/DropEFI.app && sleep 0.5 && osascript -e 'display notification "Successfully Unmount" with title "DropEFI" subtitle "EFI Partition" sound name "funk"'
+  killall -c DropEFI && sleep 0.2 && open /Applications/DropEFI.app && sleep 0.5 && open ./Notification.app
 fi
 
 
