@@ -1,11 +1,11 @@
 # Drop-EFI for macOS
-- Update 15 Feb 2025 Add Automate Password
+- Update 10 August 2025 Change AppIcon (Tahoe 26 style)
 -----------------------------------------------------------------  
 
 [![pages-build-deployment](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment)
 
 Drop-EFI is a (Status Menu Droplet) to mount and Unmount EFI partitions in macOS
-- It works from macOS Big Sur 11.5 to macOS Sequoia 15.
+- It works from macOS Big Sur 11.5 to macOS Tahoe 26.
 - It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS
 - Not working encrypted volume
 
