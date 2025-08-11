@@ -8,7 +8,7 @@ layout: default
 
 - Update 10 August 2025 Change AppIcon (Tahoe 26 style)
 -----------------------------------------------------------------  
-[![License: MIT](https://github.com/chris1111/Drop-EFI/blob/Master/Icons/MIT.svg)](https://github.com/chris1111/Drop-EFI/blob/Master/LICENSE) [![pages-build-deployment](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment)
 
 Drop-EFI is a (Status Menu Droplet) to mount and Unmount EFI partitions in macOS
 - It works from macOS Big Sur 11.5 to macOS Tahoe 26.
