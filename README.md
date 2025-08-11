@@ -1,4 +1,7 @@
 # Drop-EFI for macOS
+
+<img src="Icons/AppIcon.png" alt="Github Project" style="width:20%;">
+
 - Update 10 August 2025 Change AppIcon (Tahoe 26 style)
 -----------------------------------------------------------------  
 [![License: MIT](https://github.com/chris1111/Drop-EFI/blob/Master/Icons/MIT.svg)](https://github.com/chris1111/Drop-EFI/blob/Master/LICENSE) [![pages-build-deployment](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Drop-EFI/actions/workflows/pages/pages-build-deployment)
