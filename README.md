@@ -11,6 +11,10 @@ Drop-EFI is a (Status Menu Droplet) to mount and Unmount EFI partitions in macOS
 - It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS, (GPT) ➤ DMG
 - Not working encrypted volume
 
+--------------------------------------------------------------------------------
+
+- Please gives Feedback here ➦ [Feedback](https://github.com/chris1111/Drop-EFI/discussions/3)  
+
 ### Credit:
 - Build by [chris1111](https://github.com/chris1111/)
 - Created from [Script Debugger](https://latenightsw.com/)
