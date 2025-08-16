@@ -12,7 +12,7 @@ layout: default
 
 Drop-EFI is a (Status Menu Droplet) to mount and Unmount EFI partitions in macOS
 - It works from macOS Big Sur 11.5 to macOS Tahoe 26.
-- It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS
+- It can mount EFI partitions (GPT)➤ APFS, (GPT)➤ HFS+J, (GPT)➤ NTFS, (GPT) ➤ DMG
 - Not working encrypted volume
 
 ### Credit:
